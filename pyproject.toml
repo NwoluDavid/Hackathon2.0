@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "hackathon2-0"
+version = "0.1.0"
+description = "Hackathon competition"
+authors = ["David Nwolu"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "hackathon2"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.110.1"
+pydantic = "^2.6.4"
+sqlmodel = "^0.0.16"
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
